@@ -2,21 +2,21 @@
 
 Medfile oferuje różne interfejsy do integracji zewnętrznych aplikacji z Medfile. Poniżej znajduje się spis zastosowań różnych interfejsów i odnośniki do najważniejszych informacji.
 
-## Medfile Widget API tzw. API do rejestracji online
+## Medfile Widget API
 
 Dla klientów budujących własny interfejs do rejestracji pacjentów stworzyliśmy dedykowany interejs REST API o nazwie Medfile Widget API tzw. API do rejestracji online.
 Usługa umożliwia wyszukanie m.in. specjalisty, usługi oraz terminu. Następnie dedykowany endpoint umożliwia finalizację rejestracji bez wychodzenia z Państwa aplikacji.
 
 - Opis funkcji: https://www.medfile.pl/api-do-rejestracji-online
 - Interaktywna dokumentacja: https://wapi.medfile.pl/docs
-- Przypadki użycia i wskazówki implementacyjne: w budowie
+- Przypadki użycia i wskazówki implementacyjne: https://github.com/biostatteam/medfile-widget-api
 
 ## Medfile Services API
 
 Dla klientów którzy nie korzystają z aplikacji Medfile App (https://app.medfile.pl) ale chcą zaimplementować w swoim programie integrację z e-receptą lub innymi usługami szyny P1 i nie tylko oferujemy dedykowany interfejs Medfile Services API.
 
-- Dokumentacja: https://github.com/biostatteam/medfile-services-api-wiki
 - Opis funkcji: https://www.medfile.pl/api-erecepta-ezla
+- Dokumentacja: https://github.com/biostatteam/medfile-services-api-wiki
 
 ## Medfile Auth Service API
 
